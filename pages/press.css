@@ -1,0 +1,85 @@
+.press-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    min-height: 100vh;
+}
+
+.press-header {
+    margin-bottom: 4rem;
+}
+
+.press-header h1 {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.press-header .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: #999;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.press-header .back-link:hover {
+    color: #00C853;
+}
+
+.press-list {
+    list-style: none;
+    padding: 0;
+}
+
+.press-item {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #222;
+}
+
+.press-item:last-child {
+    border-bottom: none;
+}
+
+.press-item h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    color: #fff;
+}
+
+.press-item .source {
+    font-size: 0.875rem;
+    color: #00C853;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.press-item p {
+    color: #999;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.press-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.875rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.press-item a:hover {
+    color: #00C853;
+}
+
+/* smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
